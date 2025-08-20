@@ -6,7 +6,7 @@ HF_TOKEN = "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"
 
 client = OpenAI(
     base_url="https://router.huggingface.co/v1",
-    api_key="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",    
+    api_key="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",    
 )
 
 # ---------------- Streamlit App ----------------
@@ -62,6 +62,7 @@ if prompt:
 
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": model_response})
+
 
 
 
